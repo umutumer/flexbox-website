@@ -60,6 +60,83 @@ h3{
 .ust .menu ul a:hover{
     color: #FCB941;
 }
+@media screen and (max-width: 977px) {
+    .kapsayici{
+        width: 100%;
+    }
+    .ust{
+        min-height: 13rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .ust .logo{
+        text-align: center;
+        color: #fff;
+    }
+    .ust .logo h1{
+        font-size: 2.5rem;
+        letter-spacing: .5rem;
+    }
+    .ust .logo h2{
+        font-size: 1.5rem;
+    }
+    
+    .ust .menu ul{
+        display: flex;
+    }
+    .ust .menu ul li{
+        margin: 0;
+    }
+    .ust .menu ul a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.7rem;
+        padding: 0 1.5rem;
+        -webkit-tap-highlight-color: #25373d00;
+    }
+    .ust .menu ul a:hover{
+        color: #FCB941;
+    }
+}
+@media screen and (max-width: 700px) {
+    .kapsayici{
+        width: 100%;
+    }
+    .ust{
+        min-height: 10rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .ust .logo{
+        text-align: center;
+        color: #fff;
+    }
+    .ust .logo h1{
+        font-size: 2rem;
+        letter-spacing: .2rem;
+    }
+    .ust .logo h2{
+        font-size: 1rem;
+    }
+    
+    .ust .menu ul{
+        display: flex;
+    }
+    .ust .menu ul li{
+        margin: 0;
+    }
+    .ust .menu ul a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2rem;
+        padding: 0 1.5rem;
+        -webkit-tap-highlight-color: #25373d00;
+    }
+    .ust .menu ul a:hover{
+        color: #FCB941;
+    }
+}
+
 /***********************/
 /*orta kısım*/
 .orta .bolum1{
@@ -72,6 +149,10 @@ h3{
 .orta .bolum2 .kutu{
     padding: 1rem;
     margin: 0.5rem;
+    width: 70rem;
+}
+.orta .bolum2 .kutu img{
+    width: 100%;
 }
 .orta .bolum3{
     display: flex;
@@ -80,6 +161,84 @@ h3{
 .orta .bolum3 .icerik{
     margin-right: 3rem;
 }
+@media screen and (max-width: 977px) {
+    /*orta kısım*/
+.orta .bolum1{
+    margin-top:1rem;
+}
+.orta .bolum1 img{
+   width: 100%;
+}
+.orta .bolum2{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+.orta .bolum2 .kutu{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.orta .cizgi {
+    width:100%;
+}
+.orta .bolum3{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.orta .bolum3 .icerik{
+    margin-right: 0;
+    width: 100%;
+    
+}
+.bolum3 img{
+    width: 100%;
+}
+
+}
+@media screen and (max-width: 700px) {
+    /*orta kısım*/
+.orta .bolum1{
+    margin-top:1rem;
+}
+.orta .bolum1 img{
+   width: 100%;
+}
+.orta .bolum2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.orta .bolum2 .kutu{
+    padding: .5rem;
+    margin: 0.2rem;
+    width: 100%;  
+}
+.orta .bolum2 .kutu img{
+    width: 100%;
+  }
+.orta .cizgi {
+    width:100%;
+}
+.orta .bolum3{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.orta .bolum3 .icerik{
+    margin-right: 0;
+    width: 100%;
+    
+}
+.bolum3 img{
+    width: 100%;
+}
+
+}
+
 /**********************/
 /*alt sayfa*/
 .alt{
@@ -102,5 +261,30 @@ h3{
 }
 .alt .kutu a:hover{
     color: #FCB941;
+}
+@media screen and (max-width: 700px) {
+    .alt{
+        display: flex;
+        justify-content: center;
+    }
+    .alt .kutu{
+        margin-right: .5rem;
+        padding: .5rem;
+    }
+    .alt .kutu h3{
+        color: #fff;
+        
+    }
+    .alt .kutu a{
+        color: #fff;
+        text-decoration: none;
+        margin: .5rem;
+        padding: .5rem;
+        font-size: .9rem;
+        -webkit-tap-highlight-color: #25373d00;
+    }
+    .alt .kutu a:hover{
+        color: #FCB941;
+    }
 }
 /*********************/
