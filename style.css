@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*css reset*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;/*1 rem = 10px*/
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    list-style: none;
+}
+h3{
+    font-size: 1.8rem;
+}
+/***********************/
+
+/*sayfa üstü*/
+.arkaplan{
+    background-color: #25373D;
+}
+.kapsayici{
+    width: 96rem;
+    margin: 0 auto;
+}
+.ust{
+    min-height: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ust .logo{
+    text-align: center;
+    color: #fff;
+}
+.ust .logo h1{
+    font-size: 4rem;
+    letter-spacing: .5rem;
+}
+.ust .logo h2{
+    font-size: 2.4rem;
+}
+
+.ust .menu ul{
+    display: flex;
+}
+.ust .menu ul li{
+    margin: 0 1rem;
+}
+.ust .menu ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 0 2rem;
+}
+.ust .menu ul a:hover{
+    color: #FCB941;
+}
+/***********************/
+/*orta kısım*/
+.orta .bolum1{
+    margin-top:2rem;
+}
+.orta .bolum2{
+    display: flex;
+   
+}
+.orta .bolum2 .kutu{
+    padding: 1rem;
+    margin: 0.5rem;
+}
+.orta .bolum3{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.orta .bolum3 .icerik{
+    margin-right: 3rem;
+}
+/**********************/
+/*alt sayfa*/
+.alt{
+    display: flex;
+    justify-content: center;
+}
+.alt .kutu{
+    margin-right: 1rem;
+    padding: 1rem;
+}
+.alt .kutu h3{
+    color: #fff;
+    
+}
+.alt .kutu a{
+    color: #fff;
+    text-decoration: none;
+    margin: 1rem;
+    padding: 1rem;
+}
+.alt .kutu a:hover{
+    color: #FCB941;
+}
+/*********************/
